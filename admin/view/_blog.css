@@ -1,0 +1,13 @@
+.blog {
+    text-align: left;
+    direction: ltr;
+    border-bottom: solid 1px rgb(160,160,160);
+    padding-bottom: 5px;
+}
+.blog a {
+    text-decoration: none;
+    color: rgb(90,90,90);
+}
+.blog a:hover {
+    color: rgb(0, 115, 165);
+}

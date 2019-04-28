@@ -1,0 +1,39 @@
+.footer {
+    width: 850px;
+    overflow: auto;
+    margin: 10px auto 10px auto;
+    padding: 10px 0 10px 0;
+    background-color: rgb(240,240,240);
+    border: solid 1px rgb(200,200,200);
+    border-radius: 5px;
+    text-align: center;
+}
+.footer-rights {
+    float: right;
+    width: 480px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: rgb(100,100,100);
+    text-align: right;
+    margin-right: 10px;
+
+}
+.footer-links {
+    float: left;
+    width: 280px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: rgb(100,100,100);
+    text-align: left;
+    margin-left: 10px;
+}
+.footer-links a {
+    color: rgb(30,130,150);
+    text-decoration: none;
+    transition: 300ms;
+}
+.footer-links a:hover {
+    color: rgb(19, 74, 85);
+}

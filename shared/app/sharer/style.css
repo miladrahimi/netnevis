@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+    padding: 10px;
+}
+.networks {
+    width: 500px;
+    margin: auto;
+    padding-top: 5px;
+    background-color: rgb(240,240,240);
+    border: solid 1px rgb(160,160,160);
+}
+.networks img {
+    width: 24px;
+    height: 24px;
+    margin: 3px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+.networks img:hover {
+    box-shadow: 0 0 10px rgb(0,0,0);
+}

@@ -1,0 +1,239 @@
+body {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+    background: rgb(0, 0, 0) url('/shared/image/home.jpg') no-repeat fixed;
+    background-size: 100% 100%;
+}
+.main {
+	text-align: center;
+	width: 450px;
+    margin: 50px auto;
+    background-color: rgb(247,247,247);
+	border: 1px solid rgb(229,229,229);
+	border-radius: 5px;
+	box-shadow: 0 0 20px rgb(0,0,0);
+	padding-bottom: 50px;
+}
+.logo {
+    background: url('/shared/image/logo100.png') no-repeat center center;
+    height: 100px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.section {
+	display: none;
+	width: 277px;
+	margin: auto;
+}
+.loading {
+    background: rgb(0, 0, 0) url('/shared/image/loading.gif') no-repeat center center;
+    height: 100%;
+	width: 100%;
+	opacity: 0.9;
+	position: fixed;
+	z-index: 999;
+	left: 0;
+	top: 0;
+}
+.message {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: rgb(34,34,34);
+    background-color: rgb(249,237,190);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid rgb(240,195,109);
+    border-radius: 2px;
+    box-shadow: 0 0 2px 1px rgb(218,218,218);
+    margin: 10px auto;
+    width: 400px;
+    clear: both;
+    display: none;
+}
+label {
+	color: rgb(10,10,10);
+	text-align: right;
+	display: block;
+	margin-bottom: -5px;
+	margin-top: 5px;
+}
+label a {
+    text-decoration: none;
+    color: rgb(5, 50, 100);
+}
+.label {
+	color: rgb(10,10,10);
+	text-align: justify;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.link {
+	text-decoration: none;
+	color: rgb(0, 115, 165);
+	text-align: justify;
+	width: 275px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.link span {
+	cursor: pointer;
+}
+.link span:hover {
+    color: rgb(0, 138, 197);
+}
+.field1 {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: rgb(51,51,51);
+    direction: ltr;
+    text-align: justify;
+    background-color: rgb(255,255,255);
+    padding: 10px;
+    width: 255px;
+    margin-top: 10px;
+    border: 1px solid rgb(185,185,185);
+    border-top-color: rgb(160,160,160);
+}
+.field1:hover {
+    box-shadow: 1px 1px 1px rgb(200,200,200) inset;
+}
+.field1:focus {
+    border-color: rgb(0, 115, 165);
+}
+.button1 {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(250,250,250);
+    background-color: rgb(65,135,250);
+    background: linear-gradient(to bottom, rgb(65,135,250), rgb(58, 101, 201));
+    text-align: center;
+    height: 34px;
+    width: 100px;
+    border: 1px solid rgb(47,91,183);
+    border-radius: 5px;
+    margin: auto;
+    cursor: pointer;
+}
+.button1:hover {
+    background-color: rgb(58, 101, 201);
+    background: linear-gradient(to bottom, rgb(65,135,250), rgb(52, 89, 172));
+}
+.button1:active {
+    background-color: rgb(58, 101, 201);
+    background: linear-gradient(to bottom, rgb(52, 89, 172), rgb(65,135,250));
+}
+.button2 {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(100,100,100);
+    background-color: rgb(225,225,225);
+    background: linear-gradient(to bottom, rgb(245,245,245), rgb(215,215,215));
+    text-align: center;
+    height: 34px;
+    width: 100px;
+    border: 1px solid rgb(190,190,190);
+    border-radius: 5px;
+    margin: auto;
+    cursor: pointer;
+}
+.button2:hover {
+    background-color: rgb(210,210,210);
+    background: linear-gradient(to bottom, rgb(245,245,245), rgb(200,200,200));
+}
+.button2:active {
+    background-color: rgb(210,210,210);
+    background: linear-gradient(to bottom, rgb(200,200,200), rgb(245,245,245));
+}
+.captcha {
+    background: rgb(255, 255, 255) no-repeat right center;
+    padding-right: 150px;
+	direction: ltr;
+	width: 115px;
+}
+.blog-url {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: rgb(10,10,10);
+    direction: ltr;
+    text-align: center;
+    margin: 5px 0 20px 0;
+    padding: 5px;
+    background-color: rgb(230,230,230);
+    border-radius: 5px;
+}
+.weblog-list {
+    overflow: auto;
+}
+.weblog-list-empty {
+    background-color: rgb(230,230,230);
+    padding: 10px;
+    border-radius: 5px;
+}
+.weblog-item {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+    border-top: thin solid rgb(200, 200, 200);
+    border-bottom: thin solid rgb(200, 200, 200);
+    border-right: solid medium rgb(5, 50, 100);
+    border-left: solid medium rgb(5, 50, 100);
+    padding: 5px 10px 5px 5px;
+    margin-bottom: 10px;
+    background-color: rgba(5, 50, 100, 0.1);
+    border-radius: 5px;
+	text-align: right;
+    cursor: pointer;
+    overflow: auto;
+}
+.weblog-item:hover {
+    background-color: rgba(5, 50, 100, 0.2);
+}
+.weblog_logo {
+    float: right;
+    height: 40px;
+    width: 40px;
+    border: solid thin rgb(5, 50, 100);
+    border-radius: 3px;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+.weblog_title {
+    float: right;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(15, 32, 97);
+    margin-right: 10px;
+    margin-top: 5px;
+    width: 280px;
+}
+.weblog_title span{
+    font-weight: normal;
+    color: rgb(45, 45, 45);
+}
+.weblog_url {
+    float: right;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: rgb(45, 45, 45);
+    margin-right: 10px;
+}
+.profile-changemail {
+    margin: 5px 0 10px 0;
+    background-color: rgb(230,230,230);
+    padding: 5px;
+    border: solid 1px rgb(160,160,160);
+    border-radius: 5px;
+    display: none;
+}

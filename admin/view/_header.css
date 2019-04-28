@@ -1,0 +1,56 @@
+.header {
+    background-color: rgb(230, 230, 230);
+    background-image: linear-gradient(to bottom, rgb(250, 250, 250), rgb(220, 220, 220));
+    width: 780px;
+    height: 60px;
+    padding: 10px;
+    margin: -1px auto 20px auto;
+    border: solid 1px rgb(160,160,160);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.header-logo {
+    background: no-repeat center center;
+    float: left;
+    margin-left: 30px;
+    border: none;
+}
+.header-member {
+    margin: 3px 30px 5px 0;
+    width: 320px;
+    height: 43px;
+    float: right;
+    text-align: right;
+    padding: 5px;
+    background-color: rgb(230, 230, 230);
+    border: solid 1px rgb(160,160,160);
+    border-radius: 5px;
+}
+.header-member-avatar {
+    border: solid 1px rgb(160,160,160);
+    background: no-repeat center center;
+    background-size: 100% 100%;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    float: right;
+}
+.header-member-info {
+    float: right;
+    width: 270px;
+    height: 40px;
+    margin-right: 5px;
+    padding-top: 3px;
+}
+.header-member-name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+.header-member-link a {
+    text-decoration: none;
+    color: rgb(0, 115, 165);
+}
+.header-member-link a:hover {
+    color: rgb(60,60,60);
+}

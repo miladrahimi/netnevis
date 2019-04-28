@@ -1,0 +1,52 @@
+.box {
+    overflow: auto;
+    margin-bottom: 5px;
+    border-radius: 2px;
+    border: solid 1px rgb(160,160,160);
+    padding: 10px;
+    background-color: rgb(255,255,255);
+    box-shadow: 0 0 3px rgb(200,200,200) inset;
+}
+.label {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    float: right;
+    display: inline;
+    color: rgb(90,90,90);
+}
+.field {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: rgb(30,30,30);
+    direction: rtl;
+    float: right;
+    border: none;
+    background-color: transparent;
+    margin-top: -2px;
+    margin-right: 5px;
+    width: 540px;
+}
+.content {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: rgb(50,50,50);
+    border: none;
+    background-color: transparent;
+    width: 580px;
+    height: 300px;
+}
+.comment-method {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 3px;
+    color: rgb(50,50,50);
+    direction: rtl;
+    float: right;
+    margin-top: -2px;
+    margin-right: 5px;
+    border: solid 1px rgb(160,160,160);
+}

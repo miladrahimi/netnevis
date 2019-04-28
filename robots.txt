@@ -1,0 +1,8 @@
+# robots.txt
+User-agent: *
+Disallow: 
+Disallow: /cgi-bin/
+Disallow: /account/
+Disallow: /admin/
+Disallow: /blog/
+Sitemap: http://netnevis.ir/sitemap.xml

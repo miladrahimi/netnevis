@@ -1,0 +1,47 @@
+<?php
+header('Content-type: application/xml');
+echo '<?xml version="1.0" encoding="UTF-8"?>';
+echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">';
+echo '<url>';
+echo '<loc>' . $blog->getURL() . '</loc>';
+echo '<lastmod>' . date('c', $blog->getMoment()) . '</lastmod>';
+echo '<changefreq>weekly</changefreq>';
+echo '<priority>1.0</priority>';
+echo '</url>';
+echo '<url>';
+echo '<loc>' . $blog->getURL() . '/archive</loc>';
+echo '<lastmod>' . date('c', $blog->getMoment()) . '</lastmod>';
+echo '<changefreq>monthly</changefreq>';
+echo '<priority>1.0</priority>';
+echo '</url>';
+echo '<url>';
+echo '<loc>' . $blog->getURL() . '/about</loc>';
+echo '<lastmod>' . date('c', $blog->getMoment()) . '</lastmod>';
+echo '<changefreq>monthly</changefreq>';
+echo '<priority>1.0</priority>';
+echo '</url>';
+echo '<url>';
+echo '<loc>' . $blog->getURL() . '/contact</loc>';
+echo '<lastmod>' . date('c', $blog->getMoment()) . '</lastmod>';
+echo '<changefreq>monthly</changefreq>';
+echo '<priority>1.0</priority>';
+echo '</url>';
+echo '<url>';
+echo '<loc>' . $blog->getURL() . '/rss</loc>';
+echo '<lastmod>' . date('c', $blog->getMoment()) . '</lastmod>';
+echo '<changefreq>weekly</changefreq>';
+echo '<priority>1.0</priority>';
+echo '</url>';
+$posts = $blog->getAllPosts();
+foreach ($posts as $id) {
+    $post = new Post();
+    $post->setID($id);
+    $post->connect();
+    echo '<url>';
+    echo '<loc>' . htmlspecialchars($blog->getURL() . "/post/" . $post->getID() . '/' . $post->getTitle()) . '</loc>';
+    echo '<lastmod>' . date('c', $post->getMoment()) . '</lastmod>';
+    echo '<changefreq>monthly</changefreq>';
+    echo '<priority>1.0</priority>';
+    echo '</url>';
+}
+echo '</urlset>';

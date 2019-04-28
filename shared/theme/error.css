@@ -1,0 +1,63 @@
+body {
+    text-align: center;
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(233,234,237);
+}
+.main {
+    background-color: rgb(255,255,255);
+    border: solid 1px rgb(200,200,200);
+    padding: 10px 20px 10px 20px;
+    width: 500px;
+    margin: 10% auto auto auto;
+    border-radius: 5px;
+    text-align: justify;
+}
+.main h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: solid 1px rgb(200,200,200);
+    color: rgb(80,80,80);
+    padding-bottom: 5px;
+}
+.main p {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: normal;
+}
+.main a {
+    color: rgb(0, 115, 165);
+    text-decoration: none;
+    cursor: pointer;
+}
+.create {
+    background-color: rgb(255,255,255);
+    border: solid 1px rgb(200,200,200);
+    padding: 10px 20px 10px 20px;
+    width: 500px;
+    margin: 20px auto;
+    border-radius: 5px;
+    text-align: justify;
+}
+.create h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(80,80,80);
+    padding-bottom: 5px;
+    margin-bottom: 0;
+}
+.create p {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 0;
+}
+.create a {
+    color: rgb(0, 115, 165);
+    text-decoration: none;
+    cursor: pointer;
+}

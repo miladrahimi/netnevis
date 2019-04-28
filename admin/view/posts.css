@@ -1,0 +1,107 @@
+.delete-confirm {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(240, 240, 240);
+    border: solid 1px rgb(230,230,230);
+    display: none;
+}
+.archive {
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.post {
+    text-align: right;
+    overflow: auto;
+    margin-top: -1px;
+    padding: 10px 5px 7px 5px;
+    border: solid 1px rgb(160,160,160);
+    background-color: rgb(245,245,245);
+    cursor: pointer;
+}
+.post:hover {
+    background-color: rgb(230,230,230);
+}
+.post-icon {
+    background-image: url('/shared/image/post16.png');
+    height: 16px;
+    width: 16px;
+    float: right;
+    margin-left: 10px;
+}
+.post-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    float: right;
+}
+.post-time {
+    color: rgb(100, 100, 100);
+    margin-right: 20px;
+    direction: ltr;
+    float: right;
+}
+.post-delete {
+    background-image: url('/shared/image/delete16.png');
+    height: 16px;
+    width: 16px;
+    float: left;
+    cursor: pointer;
+}
+.post-delete:hover {
+    background-color: rgb(255, 255, 255);
+}
+.post-comment {
+    background-image: url('/shared/image/comment16.png');
+    height: 16px;
+    width: 16px;
+    margin-left: 10px;
+    float: left;
+    cursor: pointer;
+}
+.post-comment:hover {
+    background-color: rgb(255, 255, 255);
+}
+.post-commentnum {
+    color: rgb(90,90,90);
+    text-align: left;
+    margin-left: 2px;
+    float: left;
+}
+.post-like {
+    background-image: url('/shared/image/like16.png');
+    height: 16px;
+    width: 16px;
+    margin-left: 10px;
+    float: left;
+    cursor: pointer;
+}
+.post-like:hover {
+    background-color: rgb(255, 255, 255);
+}
+.post-likenum {
+    color: rgb(90,90,90);
+    text-align: left;
+    width: 100px;
+    margin-left: 2px;
+    float: left;
+}
+.pages {
+    margin-top: 10px;
+    clear: both;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    direction: ltr;
+    overflow: auto;
+    display: none;
+}
+.pages-item {
+    background-color: rgb(230, 230, 230);
+    padding: 7px 10px 7px 10px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.pages-selected {
+    background-color: rgb(220, 75, 55);
+    color: rgb(250, 250, 250);
+}

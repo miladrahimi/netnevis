@@ -1,0 +1,411 @@
+@font-face {
+    font-family: BBCNasim;
+    src: url('/shared/font/nasim.ttf');
+}
+@font-face {
+    font-family: 'Yekan';
+    src: url('/shared/font/BYekan.eot');
+    src: local('BYekan'),
+    url('/shared/font/BYekan.woff') format('woff'),
+    url('/shared/font/BYekan.ttf') format('truetype');
+}
+body {
+    font-family: "BBCNasim", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    direction: rtl;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(250,250,250);
+}
+.header {
+    text-align: center;
+    height: 60px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+.header-main {
+    margin: auto;
+    width: 730px;
+    height: 60px;
+    background-color: rgb(30, 140, 190);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0 0 10px rgb(0,0,0);
+    overflow: visible;
+    padding: 0 50px 0 50px;
+}
+.header-logo {
+    float: left;
+    width: 100px;
+    height: 60px;
+    border: none;
+    background-color: rgb(0, 170, 220);
+}
+.header-signin-link {
+    text-decoration: none;
+    color: rgb(245, 245, 245);
+}
+.header-signin {
+    font-size: 22px;
+    float: right;
+    width: 100px;
+    padding: 3px;
+    margin-top: 10px;
+    background-color: rgb(0, 115, 165);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.header-signin:hover {
+    background-color: rgb(0, 170, 220);
+}
+.header-signup-link {
+    text-decoration: none;
+    color: rgb(245, 245, 245);
+}
+.header-signup {
+    font-size: 22px;
+    float: right;
+    width: 100px;
+    padding: 3px;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color: rgb(0, 115, 165);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.header-signup:hover {
+    background-color: rgb(0, 170, 220);
+}
+.main {
+    background: rgb(0, 0, 0) url('/shared/image/home.jpg') center;
+    background-size: 100% 100%;
+    box-shadow: 0 0 10px rgb(0,0,0);
+}
+.main-main {
+    margin: auto;
+    padding: 120px 10px 0 10px;
+    width: 830px;
+    height: 200px;
+    overflow: auto;
+}
+.main-titles {
+    float: right;
+    text-align: right;
+    width: 300px;
+    padding-right: 10px;
+}
+.main-title {
+    font-size: 25px;
+}
+.main-title h1 {
+    font-family: "Yekan", Arial, Helvetica, sans-serif;
+    text-shadow: 0 0 8px rgb(0,0,0);
+    color: rgb(245, 245, 245);
+    display: inline;
+
+}
+.main-desc h2 {
+    font-weight: normal;
+    text-shadow: 0 0 8px rgb(0,0,0);
+    color: rgb(237, 125, 49);
+    display: inline;
+}
+.main-whois {
+    float: left;
+    width: 420px;
+    overflow: auto;
+    padding: 20px;
+    background-color: rgb(247,247,247);
+    box-shadow: 0 0 10px rgb(0,0,0);
+    border-radius: 5px;
+    text-align: center;
+    direction: ltr;
+}
+.main-offer {
+    font-size: 18px;
+    margin-bottom: 10px;
+    direction: rtl;
+}
+.main-subdomain {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    width: 180px;
+    padding: 10px;
+    margin-top: 0;
+    border: solid 1px rgb(174, 174, 174);
+}
+.main-netnevis {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: right;
+    color: rgb(117, 117, 117);
+    width: 130px;
+    padding: 10px 10px 10px 0;
+    border: solid 1px rgb(174, 174, 174);
+    margin-left: -7px;
+}
+.main-lookup {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    width: 50px;
+    padding: 10px 10px 10px 0;
+    border: solid 1px rgb(24, 0, 83);
+    margin-left: 5px;
+    background: rgb(24, 0, 83) url('/shared/image/magnifier.png') no-repeat center center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.main-lookup-hover {
+    background: rgb(43, 6, 128) url('/shared/image/magnifier.png') no-repeat center center;
+}
+.main-lookup-loading {
+    background: rgb(24, 0, 83) url('/shared/image/loading2.gif') no-repeat center center;
+}
+.main-message {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: rgb(34,34,34);
+    background-color: rgb(249,237,190);
+    text-align: center;
+    direction: rtl;
+    padding: 10px 0 10px 0;
+    border: 1px solid rgb(240,195,109);
+    border-radius: 2px;
+    box-shadow: 0 0 2px 1px rgb(218,218,218);
+    margin: 10px auto;
+    width: 410px;
+    clear: both;
+    display: none;
+}
+.main-message a {
+    text-decoration: none;
+    color: rgb(0, 115, 165);
+}
+.main-message a:hover {
+    color: rgb(0, 91, 132);
+}
+.tools {
+    margin-top: 50px;
+}
+.tools-main {
+    text-align: right;
+    width: 850px;
+    margin: 5px auto 5px auto;
+    overflow: auto;
+}
+.tools-section {
+    float: right;
+    width: 253px;
+    background-color: rgb(245,245,245);
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 0 0 2px rgb(200,200,200);
+}
+.tools-section2 {
+    float: right;
+    width: 545px;
+    background-color: rgb(245,245,245);
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 0 0 2px rgb(200,200,200);
+}
+.tools-section3 {
+    float: right;
+    width: 244px;
+    background-color: rgb(245,245,245);
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 0 0 2px rgb(200,200,200);
+}
+.tools-section:hover, .tools-section2:hover, .tools-section3:hover {
+    background-color: rgb(237,237,237);
+    box-shadow: 0 0 2px rgb(160,160,160);
+}
+.tools h2 {
+    font-family: "Yekan", Yekan, B Yekan, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: rgb(36,93,196);
+    margin: 0;
+}
+.tools-section:hover h2, .tools-section2:hover h2, .tools-section3:hover h2 {
+    color: rgb(237, 125, 49);
+}
+.tools p {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    line-height: 17px;
+    color: rgb(70,70,70);
+    margin: 0;
+}
+.offer {
+    margin-top: 50px;
+    background-color: rgb(60,60,60);
+}
+.offer-main {
+    width: 850px;
+    padding: 20px 0 20px 0;
+    margin: auto;
+    overflow: auto;
+}
+.offer-message {
+    float: right;
+    font-size: 28px;
+    font-weight: normal;
+    color: rgb(240,240,240);
+    padding: 5px;
+}
+.offer a {
+    border: none;
+    text-decoration: none;
+    color: rgb(0,0,0);
+}
+.offer-signup {
+    font-family: "Yekan", Yekan, B Yekan, Arial, Helvetica, sans-serif;
+    float: left;
+    font-size: 22px;
+    width: 150px;
+    background-color: rgb(237, 125, 49);
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    text-align: center;
+}
+.offer-signup:hover {
+    background-color: rgb(217, 93, 35);
+}
+.news {
+    margin-top: 30px;
+}
+.news-title {
+    text-align: right;
+    width: 850px;
+    margin: auto;
+}
+.news-title h2 {
+    font-family: "Yekan", Yekan, B Yekan, Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: rgb(60,60,60);
+    font-weight: normal;
+    margin: 0;
+}
+.news-main {
+    text-align: right;
+    width: 850px;
+    margin: auto;
+    overflow: auto;
+    padding-top: 15px;
+}
+.news-column {
+    float: right;
+    width: 283px;
+    overflow: auto;
+}
+.news-item {
+    float: right;
+    width: 283px;
+    margin: 10px auto 5px auto;
+    overflow: auto;
+}
+.news-item-logo {
+    float: right;
+    height: 40px;
+    width: 40px;
+    background: no-repeat center center;
+    background-size: 100% 100%;
+    margin-top: 10px;
+    border: solid 1px rgb(200, 200, 200);
+    border-left: none;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.news-item-text {
+    float: right;
+    width: 210px;
+    padding: 10px;
+    background-color: rgb(240,240,240);
+    border: solid 1px rgb(200, 200, 200);
+    border-radius: 3px;
+    cursor: pointer;
+}
+.news-item-text:hover {
+    box-shadow: 0 0 5px rgb(180,180,180) inset;
+    border-color: rgb(180,180,180);
+}
+.news-item-title {
+    overflow: hidden;
+}
+.news-item-title h3 {
+    margin: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(237, 125, 49);
+}
+.news-item-url {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    direction: ltr;
+    overflow: hidden;
+    color: rgb(120,120,120);
+}
+.news-item-content {
+    padding: 5px 0 5px 0;
+}
+.news-item-content p {
+    padding: 0;
+    margin: 0;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: rgb(30,30,30);
+    word-wrap: break-word;
+}
+.footer {
+    overflow: auto;
+    text-align: center;
+    background-color: rgb(30, 140, 190);
+    margin-top: 50px;
+}
+.footer-main {
+    margin: auto;
+    width: 850px;
+    height: 26px;
+    min-width: 800px;
+    max-width: 1000px;
+    text-align: right;
+    color : rgb(255, 255, 255);
+    padding: 10px 0 10px 0;
+}
+.footer-links {
+    width: 460px;
+    float: right;
+}
+.footer-links a {
+    background-color: rgb(0, 115, 165);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    padding: 0 5px 0 5px;
+    margin-left: 5px;
+    float: right;
+    width: 60px;
+}
+.footer-links a:hover {
+    background-color: rgb(0, 170, 220);
+}
+.footer-rights {
+    width: 330px;
+    float: left;
+    text-align: left;
+}

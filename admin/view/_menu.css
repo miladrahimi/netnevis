@@ -1,0 +1,48 @@
+.menu {
+    width: 150px;
+    float: right;
+    overflow: auto;
+    margin: auto;
+    padding-left: 20px;
+    border-left: solid 1px rgb(160,160,160);
+}
+.menu-options {
+    border-radius: 5px;
+}
+.menu-options a {
+    text-decoration: none;
+}
+.menu-publish-bar {
+    overflow: auto;
+    padding: 20px 10px 30px 10px;
+}
+.menu-item {
+    background-color: rgb(230,230,230);
+    background-image: linear-gradient(to bottom, rgb(240, 240, 240), rgb(230, 230, 230));
+    padding: 10px;
+    text-align: right;
+    color: rgb(50, 50, 50);
+    border: solid 1px rgb(160,160,160);
+    margin-top: -1px;
+}
+.menu-item:hover {
+    color: rgb(220, 75, 55);
+    background-color: rgb(200,200,200);
+    background-image: linear-gradient(to bottom, rgb(240, 240, 240), rgb(210, 210, 210));
+}
+.menu-selected {
+    background-color: rgb(220, 75, 55);
+    background: linear-gradient(to bottom, rgb(220, 75, 55), rgb(192, 67, 49));
+    border: solid 1px rgb(220, 75, 55);
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    padding: 10px 10px 12px 10px;
+}
+.menu-selected:hover {
+    background-color: rgb(220, 75, 55);
+    background: linear-gradient(to bottom, rgb(220, 75, 55), rgb(192, 67, 49));
+    border: solid 1px rgb(220, 75, 55);
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    padding: 10px 10px 12px 10px;
+}

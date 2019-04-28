@@ -1,0 +1,146 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	text-align: center;
+	direction: rtl;
+	margin: 0;
+	padding: 0;
+	background-color: rgb(233,234,237);
+}
+h1, h2, h3, p {
+	padding: 0;
+	margin: 0;
+}
+.blog-main {
+    width: 852px;
+    overflow: auto;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.loading {
+    background: rgb(0, 0, 0) url('/shared/image/loading.gif') no-repeat center center;
+    height: 100%;
+    width: 100%;
+    opacity: 0.9;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    display: none;
+}
+.message {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: rgb(34,34,34);
+    background-color: rgb(249,237,190);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid rgb(240,195,109);
+    border-radius: 2px;
+    box-shadow: 0 0 2px 1px rgb(218,218,218);
+    margin: 10px auto;
+    clear: both;
+    display: none;
+}
+.contact-bar {
+    float: left;
+    width: 512px;
+}
+.contact {
+    margin-bottom: 10px;
+    background-color: rgb(255,255,255);
+    border: solid 1px rgb(200,200,200);
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgb(200,200,200);
+    text-align: justify;
+    padding: 10px;
+}
+.contact h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(40,40,40);
+    padding-bottom: 3px;
+    border-bottom: solid 1px rgb(200,200,200);
+}
+.contact p {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 18px;
+}
+.contact-author {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    width: 250px;
+    height: 27px;
+    color: rgb(60,60,60);
+    border: solid 1px rgb(230,230,230);
+    border-radius: 3px;
+    padding: 0 5px 0 5px;
+    margin: auto 0 3px 0;
+}
+.contact-email {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: rgb(60,60,60);
+    width: 250px;
+    height: 27px;
+    border: solid 1px rgb(230,230,230);
+    border-radius: 3px;
+    padding: 0 5px 0 5px;
+    margin: auto 0 3px 0;
+}
+.contact-message {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: rgb(60,60,60);
+    width: 460px;
+    height: 50px;
+    border: solid 1px rgb(230,230,230);
+    border-radius: 3px;
+    margin: auto 0 3px 0;
+    padding: 5px;
+}
+.contact-captcha {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: rgb(60,60,60);
+    width: 100px;
+    height: 27px;
+    border: solid 1px rgb(230,230,230);
+    background: rgb(255, 255, 255) no-repeat left center;
+    border-radius: 3px;
+    padding: 0 5px 0 5px;
+    margin: auto 0 auto 0;
+}
+.contact-submit {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: rgb(60,60,60);
+    background-color: rgb(220,220,220);
+    background: linear-gradient(to bottom, rgb(240,240,240), rgb(200,200,200));
+    text-align: center;
+    padding: 5px;
+    border: 1px solid rgb(200,200,200);
+    border-radius: 3px;
+    margin-top: 12px;
+    cursor: pointer;
+    margin-bottom: 12px;
+    width: 80px;
+}
+.contact-submit:hover {
+    background-color: rgb(200,200,200);
+    background: linear-gradient(to bottom, rgb(240,240,240), rgb(180,180,180));
+}

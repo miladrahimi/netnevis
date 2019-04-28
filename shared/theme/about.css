@@ -1,0 +1,108 @@
+body {
+	text-align: center;
+	direction: rtl;
+	margin: 0;
+	padding: 0;
+	background-color: rgb(233,234,237);
+}
+h1, h2, h3, p {
+	padding: 0;
+	margin: 0;
+}
+.blog-main {
+	width: 852px;
+	overflow: auto;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.about-bar {
+    float: left;
+    width: 512px;
+}
+.about {
+    margin-bottom: 10px;
+    background-color: rgb(255,255,255);
+    border: solid 1px rgb(200,200,200);
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgb(200,200,200);
+    text-align: justify;
+    padding: 10px;
+}
+.about-text {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: rgb(60,60,60);
+    line-height: 18px;
+    padding-top: 5px;
+    word-wrap: break-word;
+}
+.about h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+    color: rgb(40,40,40);
+    padding-bottom: 3px;
+    border-bottom: solid 1px rgb(200,200,200);
+}
+.author-item {
+    clear: both;
+	overflow: auto;
+    margin-top: 10px;
+    background-color: rgb(250,250,250);
+    padding: 10px;
+    border: solid 1px rgb(230,230,230);
+}
+.author-avatar {
+    background: no-repeat center center;
+    background-size: 100% 100%;
+    border: solid 1px rgb(230,230,230);
+    border-radius: 3px;
+	float: right;
+	height: 40px;
+	width: 40px;
+}
+.author-title {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(60,60,60);
+    text-align: justify;
+    float: right;
+    margin-right: 12px;
+    margin-top: 3px;
+    width: 400px;
+}
+.author-title h2 {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+    border-bottom: none;
+    display: inline;
+}
+.author-title a {
+	color: rgb(60,60,60);
+	text-decoration: none;
+}
+.author-info {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: rgb(150,150,150);
+}
+.author-about {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: rgb(60,60,60);
+    text-align: justify;
+    float: right;
+    margin-top: 5px;
+    margin-right: 12px;
+    width: 400px;
+}
+.author-about p {
+    width: 400px;
+    word-wrap: break-word;
+}

@@ -1,0 +1,7 @@
+body, td, pre {
+    color: #000;
+    font-family: Tahoma, Geneva, sans-serif, sans-serif;
+    font-size:12px;
+    margin:8px;
+    direction: rtl;
+}

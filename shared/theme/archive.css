@@ -1,0 +1,41 @@
+body {
+	text-align: center;
+	direction: rtl;
+	margin: 0;
+	padding: 0;
+	background-color: rgb(233,234,237);
+}
+h1, h2, h3, p {
+	padding: 0;
+	margin: 0;
+}
+.blog-main {
+    width: 852px;
+    overflow: auto;
+    margin: 10px auto;
+}
+.archive-bar {
+    float: left;
+    width: 512px;
+}
+.archive-bar a {
+	text-decoration: none;
+}
+.archive-section {
+    font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: rgb(120,120,120);
+	text-align: right;
+	padding: 5px;
+    border: 1px solid rgb(200, 200, 200);
+    border-right-width: 4px;
+    border-radius: 3px;
+    background-color: rgb(245,245,245);
+	margin-bottom: 5px;
+    box-shadow: 0 1px 2px rgb(200,200,200);
+}
+.archive-section:hover {
+    background-color: rgb(220,220,220);
+    background: linear-gradient(to bottom, rgb(240,240,240), rgb(220,220,220));
+}
